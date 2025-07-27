@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+ 
+ <h1>Search and Replace</h1>  
+ <p id="r1"></p>
+ <p id="r2"></p>
+<script>
+
+var text="Welcome to class"
+var pos=text.search("to")
+var text1=text.replace("class", "coding class")
+document.getElementById("r1").innerHTML="position:"+pos;
+document.getElementById("r2").innerHTML = "replace sentence:" + text1;
+
+</script>
+
+</body>
+</html>
